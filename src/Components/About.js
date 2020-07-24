@@ -1,5 +1,7 @@
 import React from 'react'
 import profil from '../Assets/Image/IMG-7177.jpg'
+import { IoMdDownload } from 'react-icons/io';
+import myresume from '../Assets/Image/Shaloom-Kashama.docx';
 
 export default function About() {
     return (
@@ -17,6 +19,11 @@ export default function About() {
               <div class="about-text">
                 <p>I attended PSC in Little Rock, AR and graduated with a bachelor of science in Computer Science. I’ve had a chance to travel across the country from Washington, DC to Seattle, WA. I ran into great people, built friendships, exchanged ideas.</p>
                 <p>Through it all, technology made it easy for us to keep in contact. This gave me more than a reason to dedicate myself on using web technologies to build products and services to maintain communities.</p>
+                <p class="text-center">
+                  <a class="btn btn-primary" href={myresume} download="myresume">
+                    <IoMdDownload />
+                    Download Resume</a>
+                </p>
               </div>
             </div>
           </div>
