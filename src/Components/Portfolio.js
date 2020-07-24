@@ -1,6 +1,6 @@
 import React from 'react'
 import portfolioImageOne from '../Assets/Image/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.png'
-import portfolioImageTwo from '../Assets/Image/portfolio-img3.PNG'
+import portfolioImageTwo from '../Assets/Image/portfolio-img4.PNG'
 import portfolioImageThree from '../Assets/Image/solar-energy-startup.JPG'
 
 export default function Portfolio() {
