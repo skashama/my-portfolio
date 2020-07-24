@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div>
+        <div id="header">
             <div class="intro">
             <div class="container">
             <div class="row">
