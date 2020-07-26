@@ -5,6 +5,7 @@ import myresume from '../Assets/Image/Shaloom-Kashama.docx';
 
 export default function About() {
     return (
+      
       <div id="about">
           <div class="container">
           <div class="section-title text-center center">
@@ -27,7 +28,8 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
+
       </div>
+    </div>
     )
 }

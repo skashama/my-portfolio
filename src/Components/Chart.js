@@ -19,6 +19,7 @@ class Chart extends Component {
             <div className="chart">
             <Pie
                 data={this.state.chartData}
+                // height={200}
                 options={{ 
                     legend: {
                       display: this.props.displayLegend,
